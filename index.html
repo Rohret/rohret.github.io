@@ -8,8 +8,20 @@
     <title>Terminal Website</title>
   </head>
   <body>
-    <textarea type="text" id="" cols="30" rows="10"></textarea>
-    <h1></h1>
+    <div id="mainText">
+      <p id="startText">Start text</p>
+    </div>
+    <div id="terminal">
+      <textarea
+        type="text"
+        id="terminalText"
+        rows="1"
+        cols="100"
+        onkeypress="enterKey(event)"
+        maxlength="100"
+      ></textarea>
+    </div>
+    <script src="commands.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

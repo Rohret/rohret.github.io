@@ -1,55 +1,54 @@
 const termText = document.getElementById("terminalText");
+var mainText = document.getElementById("mainText");
+
 var i = 0;
-var textFinished = 0;
-var testtext = "aaaaa";
-
-typingDelay(testtext);
-
-function typingDelay(text) {
-  console.log(text);
-  if (i < text.length) {
-    /*document.getElementById("mainText").innerHTML += text.charAt(i);*/
-    addLine(text.charAt(i));
-    i++;
-    setTimeout(function () {
-      typingDelay(text);
-    }, 15);
-  }
+initialize();
+//init
+function initialize() {
+  writeLines(banner, "banner");
 }
-
+termText.scrollIntoView(false);
 function enterKey(e) {
   e = e || window.event;
-  if (e.keyCode == 13 && textFinished == 0) {
-    console.log("Knappen fungerade!");
-    writeLines(whoami);
+  var temp = termText.value;
+
+  if (e.keyCode == 13) {
+    switch (temp.toLowerCase().trim()) {
+      case "help":
+        writeLines(help, "mainText");
+        break;
+      case "whois":
+        writeLines(whois, "mainText");
+        break;
+      case "clear":
+        console.log(temp);
+        document.getElementById("mainText").innerHTML = "";
+        break;
+    }
     termText.value = "";
   }
 }
 
-function writeLines(name) {
-  var testi = 0;
-  var promise = Promise.resolve();
+function writeLines(name, id) {
   name.forEach(function (item, index) {
-    promise = promise.then(function () {
-      i = 0;
-      typingDelay(item);
-      textFinished = 1;
-      return new Promise(function (resolve) {
-        setTimeout(resolve, item.length * 20);
-      });
-    });
-  });
-
-  promise.then(function () {
-    textFinished = 0;
-    console.log("Loop finished.");
+    setTimeout(() => {
+      addLine(item, id);
+      window.scrollTo(0, document.body.offsetHeight);
+    }, index * 50);
   });
 }
 
-function addLine(text) {
-  const newPara = document.createElement("span");
+/*function addLine(text, paraId) {
+  const newPara = document.createElement("p");
+  newPara.id = paraId;
   const node = document.createTextNode(text);
   newPara.appendChild(node);
   const element = document.getElementById("mainText");
   element.appendChild(newPara);
+}*/
+
+function addLine(text, paraId) {
+  const newPara = document.createElement("p");
+  newPara.innerHTML = text;
+  document.getElementById(paraId).appendChild(newPara);
 }

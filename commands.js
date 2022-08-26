@@ -31,3 +31,35 @@ whoami = [
   "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
   "<br>",
 ];
+
+banner = [
+  '<p id="startText">Adam Röhr (AR) Not A Corporation. Med ensamrätt.</p>',
+  "<br>",
+  "                        |                               ___      _                  ______      _          © 2022",
+  "                    \\       /                          / _ \\    | |                 | ___ \\    | |         ",
+  "                      .-'-.                           / /_\\ \\ __| | __ _ _ __ ___   | |_/ /___ | |__  _ __ ",
+  "                 --  /     \\ --                       |  _  |/ _` |/ _` | '_ ` _  \\ |    // _ \\| '_ \\| '__|",
+  "`~~^~^~^~^~^~^~^~^~^-=======-~^~^~^~~^~^~^~^~^~^~^~`  | | | | (_| | (_| | | | | | | | |\\ \\ (_) | | | | |   ",
+  "`~^_~^~^~-~^_~^~^_~-=========- -~^~^~^-~^~^_~^~^~^~`  \\_| |_/\\__,_|\\__,_|_| |_| |_| \\_| \\_\\___/|_| |_|_|   ",
+  "`~^~-~~^~^~-^~^_~^~~ -=====- ~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~ ",
+  "`~^~^~-~^~~^~-~^~~-~^~^~-~^~~^-~^~^~^-~^~^~^~^~~^~-~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ",
+  "<br>",
+  '<span id="welcomeText">Välkommen till min interaktiva webbsida!</span>',
+  '<span id="welcomeText">För att få en lista med kommandon, skriv:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
+];
+
+help = [
+  "<br>",
+  '<span class="command">whois</span>          Who is Forrest?',
+  '<span class="command">whoami</span>         Who are you?',
+  '<span class="command">video</span>          View YouTube videos',
+  '<span class="command">social</span>         Display social networks',
+  '<span class="command">secret</span>         Find the password',
+  '<span class="command">projects</span>       View coding projects',
+  '<span class="command">history</span>        View command history',
+  '<span class="command">help</span>           You obviously already know what this does',
+  '<span class="command">email</span>          Do not email me',
+  '<span class="command">clear</span>          Clear terminal',
+  '<span class="command">banner</span>         Display the header',
+  "<br>",
+];

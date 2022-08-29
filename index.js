@@ -28,6 +28,10 @@ function enterKey(e) {
         writeLines(openmail, "mainText");
         OpenNewTab("mailto:rohret@hotmail.se");
         break;
+      case "cv":
+        writeLines(openpdf, "mainText");
+        //<a href="test123.pdf">Download Brochure</a>;
+        break;
       case "banner":
         writeLines(onlyBanner, "mainText");
         break;

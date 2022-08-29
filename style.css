@@ -1,8 +1,8 @@
 body {
   color: #519975;
-  background: #211d1b;
+  background: #1d1612;
   font-family: cursor, monospace;
-  padding-left: 15px;
+  padding-left: 1.5%;
   white-space: nowrap;
 }
 #mainText {
@@ -14,6 +14,9 @@ body {
 #underBanner {
   color: #dcdccc;
 }
+#notFound {
+  color: #dcdccc;
+}
 #terminal::before {
   color: #519975;
   content: "guest@adamrohr.com~$";
@@ -22,6 +25,9 @@ body {
 #commandText {
   color: #00b8be;
   text-shadow: 0 0 5px #73abad;
+}
+#emailText {
+  color: #00b8be;
 }
 #welcomeText {
   padding-bottom: 40px;
@@ -47,8 +53,8 @@ p {
 }
 textarea {
   color: #00b8be;
-  background-color: #211d1b;
-  left: 205px;
+  background-color: #1d1612;
+  left: 15%;
   position: absolute;
   border: none;
   outline: none;

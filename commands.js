@@ -6,10 +6,10 @@ var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/forrestknight/";
 var email = "mailto:forrest@fkcodes.com";
 
-whois = [
+whoami = [
   "<br>",
-  "Hey, I'm Forrest!👋",
-  "I'm a software developer and content creator, who builds engaging websites like this one",
+  "Hej, Jag heter Adam Röhr!👋",
+  "Jag är 24 år gammal och är inne på mitt femte och sista år som civilingenjör inom datateknik.",
   "and makes YouTube videos about computer science & software engineering.",
   "After graduating with a Bachelor's in Computer Science, I worked professionally",
   "as a software engineer building enterprise web applications for Fortune 500 companies.",
@@ -26,9 +26,15 @@ whois = [
   "<br>",
 ];
 
-whoami = [
+whoamia = [
   "<br>",
   "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
+  "<br>",
+];
+openmail = [
+  "<br>",
+  '<p id="emailText">Öppnar e-post till rohret@hotmail.se... </p>',
+  ,
   "<br>",
 ];
 
@@ -48,18 +54,32 @@ banner = [
   '<span id="welcomeText">För att få en lista med kommandon, skriv:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
 ];
 
+onlyBanner = [
+  "<br>",
+  "                        |                               ___      _                  ______      _          © 2022",
+  "                    \\       /                          / _ \\    | |                 | ___ \\    | |         ",
+  "                      .-'-.                           / /_\\ \\ __| | __ _ _ __ ___   | |_/ /___ | |__  _ __ ",
+  "                 --  /     \\ --                       |  _  |/ _` |/ _` | '_ ` _  \\ |    // _ \\| '_ \\| '__|",
+  "`~~^~^~^~^~^~^~^~^~^-=======-~^~^~^~~^~^~^~^~^~^~^~`  | | | | (_| | (_| | | | | | | | |\\ \\ (_) | | | | |   ",
+  "`~^_~^~^~-~^_~^~^_~-=========- -~^~^~^-~^~^_~^~^~^~`  \\_| |_/\\__,_|\\__,_|_| |_| |_| \\_| \\_\\___/|_| |_|_|   ",
+  "`~^~-~~^~^~-^~^_~^~~ -=====- ~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~ ",
+  "`~^~^~-~^~~^~-~^~~-~^~^~-~^~~^-~^~^~^-~^~^~^~^~~^~-~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ",
+  "<br>",
+];
+
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
-  '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
-  '<span class="command">social</span>         Display social networks',
-  '<span class="command">secret</span>         Find the password',
-  '<span class="command">projects</span>       View coding projects',
-  '<span class="command">history</span>        View command history',
-  '<span class="command">help</span>           You obviously already know what this does',
-  '<span class="command">email</span>          Do not email me',
-  '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">banner</span>         Display the header',
+  '<span id="commandText">whoami</span>         Vem är Adam Röhr?',
+  '<span id="commandText">social</span>         Alla sociala medier ',
+  '<span id="commandText">projects</span>       Visa senaste projekten',
+  '<span id="commandText">history</span>        Kommando historiken',
+  '<span id="commandText">email</span>          Kontakta mig gärna!',
+  '<span id="commandText">clear</span>          Rensar terminalen',
+  '<span id="commandText">banner</span>         Visar headern',
   "<br>",
+];
+
+commandnotfound = [
+  "<br>",
+  '<span id="notFound">Kommandot finns inte. Skriv: </span><span id="commandText">\'help\'</span><span id="notFound"> för att få en lista med alla kommandon.</span>',
 ];

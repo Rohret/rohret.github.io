@@ -17,16 +17,31 @@ function enterKey(e) {
       case "help":
         writeLines(help, "mainText");
         break;
-      case "whois":
-        writeLines(whois, "mainText");
+      case "whoami":
+        writeLines(whoami, "mainText");
         break;
       case "clear":
         console.log(temp);
         document.getElementById("mainText").innerHTML = "";
         break;
+      case "email":
+        writeLines(openmail, "mainText");
+        OpenNewTab("mailto:rohret@hotmail.se");
+        break;
+      case "banner":
+        writeLines(onlyBanner, "mainText");
+        break;
+      default:
+        writeLines(commandnotfound, "mainText");
+        break;
     }
     termText.value = "";
   }
+}
+function OpenNewTab(link) {
+  setTimeout(function () {
+    window.open(link, "_blank");
+  }, 750);
 }
 
 function writeLines(name, id) {

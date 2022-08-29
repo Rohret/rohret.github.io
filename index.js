@@ -30,6 +30,7 @@ function enterKey(e) {
         break;
       case "cv":
         writeLines(openpdf, "mainText");
+        OpenNewTab("adam_rohr_cv.pdf");
         //<a href="test123.pdf">Download Brochure</a>;
         break;
       case "banner":

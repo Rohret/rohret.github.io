@@ -80,4 +80,4 @@ commandnotfound = [
   '<span id="notFound">Kommandot finns inte. Skriv: </span><span id="commandText">\'help\'</span><span id="notFound"> för att få en lista med alla kommandon.</span>',
 ];
 
-openpdf = ["<br>", '<a href="adam_rohr_cv.pdf">Adam Röhrs CV</a>', "<br>"];
+openpdf = ["<br>", '<p id="emailText">Öppnar PDF... </p>', "<br>"];

@@ -8,7 +8,7 @@ var email = "mailto:forrest@fkcodes.com";
 
 whoami = [
   "<br>",
-  "Heej, Jag heter Adam Röhr!👋",
+  "Heeeeej, Jag heter Adam Röhr!👋",
   "Jag är 24 år gammal och är inne på mitt femte och sista år som civilingenjör inom datateknik.",
   "and makes YouTube videos about computer science & software engineering.",
   "After graduating with a Bachelor's in Computer Science, I worked professionally",

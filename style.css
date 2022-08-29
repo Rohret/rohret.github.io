@@ -22,6 +22,7 @@ body {
   color: #519975;
   content: "guest@adamrohr.com~$";
   margin: 0;
+  right: 20%;
 }
 #commandText {
   color: #00b8be;
@@ -55,7 +56,7 @@ p {
 textarea {
   color: #00b8be;
   background-color: #1d1612;
-  left: 15%;
+  right: 20%;
   position: absolute;
   border: none;
   outline: none;
@@ -66,4 +67,5 @@ textarea {
   display: inline-block;
   resize: none;
   overflow-y: hidden;
+  size: 150%;
 }

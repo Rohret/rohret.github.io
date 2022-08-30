@@ -4,7 +4,7 @@ var linkedin = "https://www.linkedin.com/in/adam-r%C3%B6hr-90720ba1/";
 var instagram = "https://www.instagram.com/adamrohr_/";
 var github = "https://github.com/Rohret";
 
-whoami = [
+whoisadam = [
   "<br>",
   "Hej, Jag heter Adam Röhr!👋",
   "Jag är 24 år gammal och är inne på mitt femte och sista år på Karlstads Universitet som",
@@ -14,13 +14,14 @@ whoami = [
   "liv till, fick jag mycket extra tid som jag delvis kan lägga på att göra projekt likt denna webbsida.",
   "Back-end utveckling är det som varit mest i fokus under skolan och därav har jag mest",
   "kompetens inom det. Dock har jag på sidan av studierna lärt mig en del om front-end utveckling.",
-  "Målet är att bli full-stack utvecklare och därav har jag även behövt fokusera på front-end utvceckling.",
+  "Målet är att bli full-stack utvecklare och därav försöker jag lära mig alla delar.",
   "Det framgår ganska tydligt vart min kompetens ligger då jag har skapat en webbsida",
-  "som liknar en terminal ;)",
-  "text text text text text text text text text text text text text text",
-  "text text text text text text text text text text text text text text",
-  "text text text text text text text text text text text text text text.",
-  "text text text text text text text text text text text text text text.",
+  "som liknar en terminal.😉",
+  "De programmeringspråk jag är mest bekväm med är c och python. Med de sagt har jag",
+  "också gjort projekt i java, c++, c#, assembly och javascript (även HTML och CSS).",
+  "Som individ skulle jag säga att jag brinner för problemlösning, att",
+  "identifiera ett problem och att klura på det för att sedan lösa det älskar jag. ",
+  "Att bolla lösningar och problem med en grupp/team gör det ännu bättre!",
   "<br>",
 ];
 
@@ -30,6 +31,8 @@ openmail = [
   ,
   "<br>",
 ];
+
+projects = ["<br>", "TODO....", "<br>"];
 
 banner = [
   '<p id="startText">Adam Röhr (AR) Not A Corporation. Med ensamrätt.</p>',
@@ -62,7 +65,7 @@ onlyBanner = [
 
 help = [
   "<br>",
-  '<span id="commandText">whoami</span>         Vem är Adam Röhr?',
+  '<span id="commandText">whoisadam</span>      Vem är Adam Röhr?',
   '<span id="commandText">social</span>         Alla sociala medier ',
   '<span id="commandText">projects</span>       Visa senaste projekten',
   '<span id="commandText">email</span>          Kontakta mig gärna!',

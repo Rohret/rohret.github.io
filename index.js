@@ -19,8 +19,8 @@ function enterKey(e) {
       case "help":
         writeLines(help, "mainText");
         break;
-      case "whoami":
-        writeLines(whoami, "mainText");
+      case "whoisadam":
+        writeLines(whoisadam, "mainText");
         break;
       case "email":
         writeLines(openmail, "mainText");
@@ -42,6 +42,9 @@ function enterKey(e) {
         break;
       case "social":
         writeLines(social, "mainText");
+        break;
+      case "projects":
+        writeLines(projects, "mainText");
         break;
       default:
         writeLines(commandnotfound, "mainText");

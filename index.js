@@ -1,6 +1,7 @@
 const termText = document.getElementById("terminalText");
 var mainText = document.getElementById("mainText");
-
+const history = [];
+var historyPlace = 0;
 
 var i = 0;
 initialize();
@@ -21,27 +22,54 @@ function enterKey(e) {
       case "whoami":
         writeLines(whoami, "mainText");
         break;
-      case "clear":
-        console.log(temp);
-        document.getElementById("mainText").innerHTML = "";
-        break;
       case "email":
         writeLines(openmail, "mainText");
         OpenNewTab("mailto:rohret@hotmail.se");
         break;
       case "cv":
         writeLines(openpdf, "mainText");
-        OpenNewTab("adam_rohr_cv.pdf");
-        //<a href="test123.pdf">Download Brochure</a>;
+        OpenNewTab("attachments/adam_rohr_cv.pdf");
         break;
       case "banner":
         writeLines(onlyBanner, "mainText");
+        break;
+      case "history":
+        writeLines(newline, "mainText");
+        writeLines(history, "mainText");
+        break;
+      case "clear":
+        document.getElementById("mainText").innerHTML = "";
+        break;
+      case "social":
+        writeLines(social, "mainText");
         break;
       default:
         writeLines(commandnotfound, "mainText");
         break;
     }
+    const noWhitespace = temp.replace(/\s/g, "");
+    if (noWhitespace != "") {
+      history.push(noWhitespace);
+    }
     termText.value = "";
+    historyPlace = history.length;
+  }
+}
+
+function checkarrowkey(e) {
+  e = e || window.event;
+
+  if (e.keyCode === 38) {
+    if (historyPlace > 0) {
+      historyPlace--;
+      termText.value = history[historyPlace];
+    }
+  }
+  if (e.keyCode === 40) {
+    if (historyPlace < history.length - 1) {
+      historyPlace++;
+      termText.value = history[historyPlace];
+    }
   }
 }
 function OpenNewTab(link) {
@@ -57,16 +85,8 @@ function writeLines(name, id) {
       window.scrollTo(0, document.body.offsetHeight);
     }, index * 50);
   });
+  //addLine("<br>", "mainText");
 }
-
-/*function addLine(text, paraId) {
-  const newPara = document.createElement("p");
-  newPara.id = paraId;
-  const node = document.createTextNode(text);
-  newPara.appendChild(node);
-  const element = document.getElementById("mainText");
-  element.appendChild(newPara);
-}*/
 
 function addLine(text, paraId) {
   const newPara = document.createElement("p");
@@ -74,10 +94,8 @@ function addLine(text, paraId) {
   document.getElementById(paraId).appendChild(newPara);
 }
 
-function notFocused(){
-  setTimeout(function() { 
-    termText.focus(); 
-}, 100);
-  
-  console.log("inte fokad");
+function notFocused() {
+  setTimeout(function () {
+    termText.focus();
+  }, 100);
 }

@@ -1,14 +1,12 @@
-var youtube = "https://www.youtube.com/fknight/";
-var twitter = "https://www.twitter.com/forrestpknight/";
+var facebook = "https://www.facebook.com/adam.rohr.94";
 var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
-var github = "https://github.com/forrestknight/";
-var email = "mailto:forrest@fkcodes.com";
+var linkedin = "https://www.linkedin.com/in/adam-r%C3%B6hr-90720ba1/";
+var instagram = "https://www.instagram.com/adamrohr_/";
+var github = "https://github.com/Rohret";
 
 whoami = [
   "<br>",
-  "Heeeeej, Jag heter Adam Röhr!👋",
+  "Hej, Jag heter Adam Röhr!👋",
   "Jag är 24 år gammal och är inne på mitt femte och sista år som civilingenjör inom datateknik.",
   "text text text text text text text text text text text text text text text",
   "text text text text text text text text text text text text text text text",
@@ -67,11 +65,11 @@ help = [
   '<span id="commandText">whoami</span>         Vem är Adam Röhr?',
   '<span id="commandText">social</span>         Alla sociala medier ',
   '<span id="commandText">projects</span>       Visa senaste projekten',
-  '<span id="commandText">history</span>        Kommando historiken',
   '<span id="commandText">email</span>          Kontakta mig gärna!',
   '<span id="commandText">cv</span>             En länk till mitt CV',
-  '<span id="commandText">clear</span>          Rensar terminalen',
   '<span id="commandText">banner</span>         Visar headern',
+  '<span id="commandText">history</span>        Kommando historiken',
+  '<span id="commandText">clear</span>          Rensar terminalen',
   "<br>",
 ];
 
@@ -81,3 +79,26 @@ commandnotfound = [
 ];
 
 openpdf = ["<br>", '<p id="emailText">Öppnar CV... </p>', "<br>"];
+
+newline = ["<br>"];
+
+social = [
+  "<br>",
+  'linkedin       <a href="' +
+    linkedin +
+    '" target="_blank">linkedin/adamrohr' +
+    "</a>",
+  'github         <a href="' +
+    github +
+    '" target="_blank">github/rohret' +
+    "</a>",
+  'instagram      <a href="' +
+    instagram +
+    '" target="_blank">instagram/adamrohr_' +
+    "</a>",
+  'Facebook       <a href="' +
+    facebook +
+    '"target="_blank">Facebook/adamrohr' +
+    "</a>",
+  "<br>",
+];

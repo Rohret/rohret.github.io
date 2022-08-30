@@ -9,21 +9,22 @@
   </head>
   <body>
     <div id="backgrounddiv">
-    <div id="banner"></div>
-    <div id="mainText"></div>
-    <div id="terminal">
-      <textarea
-        type="text"
-        id="terminalText"
-        rows="1"
-        cols="100"
-        onkeypress="enterKey(event)"
-        maxlength="100"
-        autofocus
-        onblur="notFocused()"
-      ></textarea>
+      <div id="banner"></div>
+      <div id="mainText"></div>
+      <div id="terminal">
+        <textarea
+          type="text"
+          id="terminalText"
+          rows="1"
+          cols="100"
+          onkeypress="enterKey(event)"
+          onkeydown="checkarrowkey(event)"
+          maxlength="100"
+          autofocus
+          onblur="notFocused()"
+        ></textarea>
+      </div>
     </div>
-  </div>
     <script src="commands.js"></script>
     <script src="index.js"></script>
   </body>

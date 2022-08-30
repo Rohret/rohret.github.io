@@ -7,7 +7,7 @@ var github = "https://github.com/Rohret";
 whoisadam = [
   "<br>",
   "Hej, Jag heter Adam Röhr!👋",
-  "Jag är 24 år gammal och är inne på mitt femte och sista år på Karlstads Universitet som",
+  "Jag är 24 år gammal och är inne på mitt femte och sista år på Karlstads universitet som",
   "civilingenjör inom datateknik.",
   "Utöver plugget så hänger jag med kompisar, gymmar eller umgås med min sambo. ",
   "Då jag slutade med innebandy förra året som jag har ägnat en stor del av mitt",

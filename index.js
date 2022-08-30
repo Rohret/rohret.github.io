@@ -63,6 +63,22 @@ function checkarrowkey(e) {
     if (historyPlace > 0) {
       historyPlace--;
       termText.value = history[historyPlace];
+      setTimeout(() => {
+        termText.setSelectionRange(
+          termText.value.length,
+          termText.value.length
+        );
+        termText.focus();
+      }, 0);
+    }
+    if (termText.value == history[0]) {
+      setTimeout(() => {
+        termText.setSelectionRange(
+          termText.value.length,
+          termText.value.length
+        );
+        termText.focus();
+      }, 0);
     }
   }
   if (e.keyCode === 40) {
@@ -85,7 +101,6 @@ function writeLines(name, id) {
       window.scrollTo(0, document.body.offsetHeight);
     }, index * 50);
   });
-  //addLine("<br>", "mainText");
 }
 
 function addLine(text, paraId) {

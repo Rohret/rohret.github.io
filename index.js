@@ -1,6 +1,7 @@
 const termText = document.getElementById("terminalText");
 var mainText = document.getElementById("mainText");
 
+
 var i = 0;
 initialize();
 //init
@@ -71,4 +72,12 @@ function addLine(text, paraId) {
   const newPara = document.createElement("p");
   newPara.innerHTML = text;
   document.getElementById(paraId).appendChild(newPara);
+}
+
+function notFocused(){
+  setTimeout(function() { 
+    termText.focus(); 
+}, 100);
+  
+  console.log("inte fokad");
 }

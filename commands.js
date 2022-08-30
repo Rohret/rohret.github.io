@@ -45,7 +45,7 @@ banner = [
   "`~^~-~~^~^~-^~^_~^~~ -=====- ~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~~^~^~-~^~_~^~^~~^~-~^~ ",
   "`~^~^~-~^~~^~-~^~~-~^~^~-~^~~^-~^~^~^-~^~^~^~^~~^~-~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ",
   "<br>",
-  '<span id="welcomeText">Välkommen till min interaktiva webbsida!</span>',
+  '<span id="welcomeText">Välkommen till min interaktiva webbterminal!</span>',
   '<span id="welcomeText">För att få en lista med kommandon, skriv:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
 ];
 

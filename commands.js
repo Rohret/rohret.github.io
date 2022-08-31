@@ -48,6 +48,8 @@ banner = [
   "<br>",
   '<span id="welcomeText">Välkommen till min interaktiva webbterminal!</span>',
   '<span id="welcomeText">För att få en lista med kommandon, skriv:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
+  '<span id="forMobile">OBS! Då detta är en terminal liknande webbsida </span>',
+  '<span id="forMobile">fungerar det bäst på en dator!</span>',
 ];
 
 onlyBanner = [

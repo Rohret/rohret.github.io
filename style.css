@@ -99,3 +99,14 @@ a {
   color: #00b8be;
   text-decoration: none;
 }
+
+#forMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #forMobile {
+    display: inline;
+    color: #00b8be;
+  }
+}

@@ -19,8 +19,8 @@ whoisadam = [
   "som liknar en terminal.😉",
   "De programmeringspråk jag är mest bekväm med är c och python. Med de sagt har jag",
   "också gjort projekt i java, c++, c#, swift, assembly och javascript (även HTML och CSS).",
-  "Som individ skulle jag säga att jag brinner för problemlösning, att",
-  "identifiera ett problem och att klura på det för att sedan lösa det älskar jag. ",
+  "Det bästa med den inriktning jag valt är problemlösandet.",
+  "Jag tycker processen från att identifiera ett problem till att lösa det, är både kul och givande.",
   "Att bolla lösningar och problem med en grupp/team gör det ännu bättre!",
   "<br>",
 ];

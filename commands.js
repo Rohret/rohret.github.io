@@ -18,7 +18,7 @@ whoisadam = [
   "Det framgår ganska tydligt vart min kompetens ligger då jag har skapat en webbsida",
   "som liknar en terminal.😉",
   "De programmeringspråk jag är mest bekväm med är c och python. Med de sagt har jag",
-  "också gjort projekt i java, c++, c#, assembly och javascript (även HTML och CSS).",
+  "också gjort projekt i java, c++, c#, swift, assembly och javascript (även HTML och CSS).",
   "Som individ skulle jag säga att jag brinner för problemlösning, att",
   "identifiera ett problem och att klura på det för att sedan lösa det älskar jag. ",
   "Att bolla lösningar och problem med en grupp/team gör det ännu bättre!",

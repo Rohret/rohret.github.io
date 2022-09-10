@@ -28,7 +28,7 @@ function enterKey(e) {
         break;
       case "cv":
         writeLines(openpdf, "mainText");
-        OpenNewTab("attachments/adamr_cv.pdf");
+        OpenNewTab("attachments/adam_rohr_cv_done.pdf");
         break;
       case "banner":
         writeLines(onlyBanner, "mainText");

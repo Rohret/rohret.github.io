@@ -24,7 +24,7 @@ function enterKey(e) {
         break;
       case "email":
         writeLines(openmail, "mainText");
-        OpenNewTab("mailto:rohret@hotmail.se");
+        OpenNewTab("mailto:contact@adamrohr.se");
         break;
       case "cv":
         writeLines(openpdf, "mainText");

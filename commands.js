@@ -27,7 +27,7 @@ whoisadam = [
 
 openmail = [
   "<br>",
-  '<p id="emailText">Öppnar e-post till rohret@hotmail.se... </p>',
+  '<p id="emailText">Öppnar e-post till contact@adamrohr.se... </p>',
   ,
   "<br>",
 ];

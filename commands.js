@@ -88,6 +88,7 @@ banner = [
 
 mobilebanner = [
   '<p id="startText">Adam Röhr (AR) Not A Corporation. Med ensamrätt.</p>',
+  '<p id="startText">OBS! Webbterminal är bättre anpassad till dator!</p>',
   "<br>",
   "                        |                          ",
   "                    \\       /                     ",

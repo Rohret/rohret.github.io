@@ -1,4 +1,5 @@
 var termText = document.getElementById("terminalText");
+var termTextTest = document.getElementById("terminalText");
 var mainText = document.getElementById("mainText");
 const history = [];
 var historyPlace = 0;
@@ -24,11 +25,21 @@ function initialize() {
   writeLines(mobilebanner, "mobilebanner");
 }
 termText.scrollIntoView(false);
+
+function mobileKeyboardDown(){
+  
+  if (window.getComputedStyle(termTextTest).display === "none") {
+    termText.blur();
+    console.log("in blur");
+  }
+}
 function enterKey(e) {
   e = e || window.event;
   var temp = termText.value;
 
+
   if (e.keyCode == 13) {
+    mobileKeyboardDown();
     switch (temp.toLowerCase().trim()) {
       case "help":
         writeLines(help, "mainText");

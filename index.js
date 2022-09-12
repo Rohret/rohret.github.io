@@ -30,7 +30,6 @@ function mobileKeyboardDown(){
   
   if (window.getComputedStyle(termTextTest).display === "none") {
     termText.blur();
-    
   }
 }
 function enterKey(e) {

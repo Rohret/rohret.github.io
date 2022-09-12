@@ -1,13 +1,27 @@
-const termText = document.getElementById("terminalText");
+var termText = document.getElementById("terminalText");
 var mainText = document.getElementById("mainText");
 const history = [];
 var historyPlace = 0;
 
+
 var i = 0;
+
+
+
+
 initialize();
+rightTerminal();
+
+function rightTerminal(){
+  if (window.getComputedStyle(termText).display === "none") {
+    termText = document.getElementById("mobileterminalText");
+   
+  }
+}
 //init
 function initialize() {
   writeLines(banner, "banner");
+  writeLines(mobilebanner, "mobilebanner");
 }
 termText.scrollIntoView(false);
 function enterKey(e) {
@@ -21,6 +35,7 @@ function enterKey(e) {
         break;
       case "whoisadam":
         writeLines(whoisadam, "mainText");
+        writeLines(whoisadammobile, "mainText");
         break;
       case "email":
         writeLines(openmail, "mainText");
@@ -48,6 +63,7 @@ function enterKey(e) {
         break;
       default:
         writeLines(commandnotfound, "mainText");
+        writeLines(commandnotfoundmobile, "mainText");
         break;
     }
     const noWhitespace = temp.replace(/\s/g, "");

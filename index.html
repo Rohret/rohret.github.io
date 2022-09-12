@@ -10,6 +10,7 @@
   <body>
     <div id="backgrounddiv">
       <div id="banner"></div>
+      <div id="mobilebanner"></div>
       <div id="mainText"></div>
       <div id="terminal">
         <textarea
@@ -23,6 +24,17 @@
           autofocus
           onblur="notFocused()"
         ></textarea>
+        <textarea
+        type="text"
+        id="mobileterminalText"
+        rows="1"
+        cols="30"
+        onkeypress="enterKey(event)"
+        onkeydown="checkarrowkey(event)"
+        maxlength="30"
+        autofocus
+        onblur="notFocused()"
+      ></textarea>
       </div>
     </div>
     <script src="commands.js"></script>

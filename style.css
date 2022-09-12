@@ -142,7 +142,11 @@ a {
   #WhoIs{display: none;}
   #mobileWhoIs{display: block;}
   #terminalText{display: none;}
-  #mobileterminalText{display: inline-block;}
+  #mobileterminalText{display: inline-block;
+    border-style: dotted;
+    border-width: 1px;
+          
+  }
   #notFound{display: none;}
   #commandTextDesk{display: none;}
   #commandnotfoundmobile{display: inline-block;}

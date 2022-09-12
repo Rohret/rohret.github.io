@@ -136,7 +136,7 @@ commandnotfound = [
 commandnotfoundmobile = [
   "<br>",
   '<span id="commandnotfoundmobile">Kommandot finns inte.</span>',
-  '<span id="commandnotfoundmobile">Skriv: <span id="commandTextMobile">\'help\'</span><span id="commandnotfoundmobile"> för att få en lista med alla kommandon.</span>',
+  '<span id="commandnotfoundmobile">Skriv: <span id="commandTextMobile">\'help\'</span><span id="commandnotfoundmobile"> för att få en lista med kommandon.</span>',
 ];
 
 openpdf = ["<br>", '<p id="emailText">Öppnar CV... </p>', "<br>"];

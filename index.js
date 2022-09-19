@@ -2,6 +2,7 @@ const termText = document.getElementById("terminalText");
 var mainText = document.getElementById("mainText");
 const history = [];
 var historyPlace = 0;
+var oneAtATime = 0;
 
 var i = 0;
 initialize();
@@ -14,7 +15,7 @@ function enterKey(e) {
   e = e || window.event;
   var temp = termText.value;
 
-  if (e.keyCode == 13) {
+  if (e.keyCode == 13 && oneAtATime == 0) {
     switch (temp.toLowerCase().trim()) {
       case "help":
         writeLines(help, "mainText");
@@ -97,7 +98,15 @@ function OpenNewTab(link) {
   }, 750);
 }
 
+function promiseFunc(time) {
+  oneAtATime = 1;
+  setTimeout(() => {
+    oneAtATime = 0;
+  }, time * 50);
+}
+
 function writeLines(name, id) {
+  promiseFunc(name.length);
   name.forEach(function (item, index) {
     setTimeout(() => {
       addLine(item, id);

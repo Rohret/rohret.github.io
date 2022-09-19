@@ -1,35 +1,53 @@
-const termText = document.getElementById("terminalText");
+var termText = document.getElementById("terminalText");
+var termTextTest = document.getElementById("terminalText");
 var mainText = document.getElementById("mainText");
 const history = [];
 var historyPlace = 0;
 var oneAtATime = 0;
 
 var i = 0;
+
 initialize();
+rightTerminal();
+
+function rightTerminal() {
+  if (window.getComputedStyle(termText).display === "none") {
+    termText = document.getElementById("mobileterminalText");
+  }
+}
 //init
 function initialize() {
   writeLines(banner, "banner");
+  writeLines(mobilebanner, "mobilebanner");
 }
 termText.scrollIntoView(false);
+
+function mobileKeyboardDown() {
+  if (window.getComputedStyle(termTextTest).display === "none") {
+    termText.blur();
+  }
+}
 function enterKey(e) {
   e = e || window.event;
   var temp = termText.value;
 
   if (e.keyCode == 13 && oneAtATime == 0) {
+    mobileKeyboardDown();
     switch (temp.toLowerCase().trim()) {
       case "help":
         writeLines(help, "mainText");
         break;
       case "whoisadam":
         writeLines(whoisadam, "mainText");
+        writeLines(whoisadammobile, "mainText");
         break;
       case "email":
         writeLines(openmail, "mainText");
-        OpenNewTab("mailto:rohret@hotmail.se");
+        OpenNewTab("mailto:contact@adamrohr.se");
         break;
       case "cv":
         writeLines(openpdf, "mainText");
-        OpenNewTab("attachments/adam_rohr_cv.pdf");
+        OpenNewTab("attachments/correct_adamrohr_cv.pdf");
         break;
       case "banner":
         writeLines(onlyBanner, "mainText");
@@ -49,6 +67,7 @@ function enterKey(e) {
         break;
       default:
         writeLines(commandnotfound, "mainText");
+        writeLines(commandnotfoundmobile, "mainText");
         break;
     }
     const noWhitespace = temp.replace(/\s/g, "");

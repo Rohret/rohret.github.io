@@ -11,9 +11,12 @@ body {
   font-family: cursor, monospace;
   padding-left: 0.5%;
   white-space: nowrap;
-  font-size: 100%;
+  font-size: 16px;
 }
 
+#mobileWhoIs{display: none;}
+#commandnotfoundmobile{display: none;}
+#commandTextMobile{display: none;}
 body::after {
   content: "";
   background-image: url(attachments/forrest.jpeg);
@@ -32,6 +35,7 @@ body::after {
 }
 #mainText {
   margin-bottom: 5px;
+  
 }
 #startText {
   color: #dcdccc;
@@ -42,14 +46,16 @@ body::after {
 #notFound {
   color: #dcdccc;
 }
-#terminal::before {
-  color: #519975;
-  content: "guest@adamrohr.com~$";
-  width: 100%;
-  margin: 0;
-  right: 20%;
-}
+
 #commandText {
+  color: #00b8be;
+  text-shadow: 0 0 5px #73abad;
+}
+#commandTextMobile {
+  color: #00b8be;
+  text-shadow: 0 0 5px #73abad;
+}
+#commandTextDesk {
   color: #00b8be;
   text-shadow: 0 0 5px #73abad;
 }
@@ -100,13 +106,55 @@ a {
   text-decoration: none;
 }
 
-#forMobile {
+
+
+#mobilebanner{
   display: none;
+}
+
+#mobileterminalText{display: none;}
+#terminal::before {
+  color: #519975;
+  content: "guest@adamrohr.com~$";
+  width: 100%;
+  margin: 0;
+  right: 20%;
 }
 
 @media only screen and (max-width: 600px) {
   #forMobile {
     display: inline;
     color: #00b8be;
+  }
+  body{
+    font-size:11.5px;
+    background: black;
+  }
+  #mobilebanner{
+    display:block;
+  }
+  #banner{
+    display: none;
+  }
+  
+  p{
+    white-space:pre;
+  }
+  #WhoIs{display: none;}
+  #mobileWhoIs{display: block;}
+  #terminalText{display: none;}
+  #mobileterminalText{display: inline-block;
+    border-style: dotted;
+    border-width: 1px;
+          
+  }
+  #notFound{display: none;}
+  #commandTextDesk{display: none;}
+  #commandnotfoundmobile{display: inline-block;}
+  #commandTextMobile{display: inline-block;}
+
+  body::after {
+    background-image: none;
+    
   }
 }

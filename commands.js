@@ -68,7 +68,12 @@ openmail = [
   "<br>",
 ];
 
-projects = ["<br>", "TODO....", "<br>"];
+projects = ["<br>",
+'<p>Appar:</p>', 
+"<br>",
+//'<p id="project">KortLeken (IOS) <img id="king" src="attachments/king.jpg" alt="Warning! width="40" height="40" "> </p>',
+'<a href="https://apps.apple.com/se/app/kortleken/id1644866773" target="_blank">KortLeken (IOS)</a>',
+, "<br>",];
 
 banner = [
   '<p id="startText">Adam Röhr (AR) Not A Corporation. Med ensamrätt.</p>',
@@ -135,6 +140,8 @@ commandnotfound = [
   '<span id="notFound"><br></span>',
   '<span id="notFound">Kommandot finns inte. Skriv: </span><span id="commandTextDesk">\'help\'</span><span id="notFound"> för att få en lista med alla kommandon.</span>',
 ];
+
+
 
 commandnotfoundmobile = [
   "<br>",

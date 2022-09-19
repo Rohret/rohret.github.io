@@ -117,15 +117,18 @@ function OpenNewTab(link) {
   }, 750);
 }
 
-function promiseFunc(time) {
-  oneAtATime = 1;
-  setTimeout(() => {
-    oneAtATime = 0;
-  }, time * 50);
+function promiseFunc(name, time) {
+  if (time != 33) {
+    console.log(time);
+    oneAtATime = 1;
+    setTimeout(() => {
+      oneAtATime = 0;
+    }, time * 50);
+  }
 }
 
 function writeLines(name, id) {
-  promiseFunc(name.length);
+  promiseFunc(name, name.length);
   name.forEach(function (item, index) {
     setTimeout(() => {
       addLine(item, id);

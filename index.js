@@ -43,11 +43,11 @@ function enterKey(e) {
         break;
       case "email":
         writeLines(openmail, "mainText");
-        OpenNewTab("mailto:contact@adamrohr.se");
+        OpenNewTab("mailto:adamroohr@gmail.com");
         break;
       case "cv":
         writeLines(openpdf, "mainText");
-        OpenNewTab("attachments/correct_adamrohr_cv.pdf");
+        OpenNewTab("attachments/CV_adamroohr.pdf");
         break;
       case "banner":
         writeLines(onlyBanner, "mainText");

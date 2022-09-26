@@ -36,7 +36,7 @@ whoisadammobile = [
   '<p id="mobileWhoIs">Då jag slutade med innebandy förra året som</p>',
   '<p id="mobileWhoIs">jag har ägnat en stor del av mitt</p>',
   '<p id="mobileWhoIs">liv till, fick jag mycket extra tid som </p>',
-  '<p id="mobileWhoIs">jag delvis kan lägga på att göra projekt</p>', 
+  '<p id="mobileWhoIs">jag delvis kan lägga på att göra projekt</p>',
   '<p id="mobileWhoIs">likt denna webbsida.</p>',
   '<p id="mobileWhoIs">Back-end utveckling är det som varit mest</p>',
   '<p id="mobileWhoIs">i fokus under skolan och därav har jag mest</p>',
@@ -49,31 +49,34 @@ whoisadammobile = [
   '<p id="mobileWhoIs">som liknar en terminal.😉</p>',
   '<p id="mobileWhoIs">De programmeringspråk jag är mest bekväm med</p>',
   '<p id="mobileWhoIs">är c och python. Med de sagt har jag</p>',
-  '<p id="mobileWhoIs">också gjort projekt i java, c++, c#, swift,</p>', 
+  '<p id="mobileWhoIs">också gjort projekt i java, c++, c#, swift,</p>',
   '<p id="mobileWhoIs">assembly och javascript (även HTML och CSS).</p>',
   '<p id="mobileWhoIs">Det bästa med den inriktning jag valt är </p>',
   '<p id="mobileWhoIs">problemlösandet.</p>',
   '<p id="mobileWhoIs">Jag tycker processen från att identifiera ett</p>',
-  '<p id="mobileWhoIs">problem till att lösa det, är både kul och</p>', 
+  '<p id="mobileWhoIs">problem till att lösa det, är både kul och</p>',
   '<p id="mobileWhoIs">givande.</p>',
-  '<p id="mobileWhoIs">Att bolla lösningar och problem med en grupp/team</p>', 
+  '<p id="mobileWhoIs">Att bolla lösningar och problem med en grupp/team</p>',
   '<p id="mobileWhoIs">gör det ännu bättre!</p>',
   '<p id="mobileWhoIs"><br></p>',
 ];
 
 openmail = [
   "<br>",
-  '<p id="emailText">Öppnar e-post till contact@adamrohr.se... </p>',
+  '<p id="emailText">Öppnar e-post till adamroohr@gmail.com... </p>',
   ,
   "<br>",
 ];
 
-projects = ["<br>",
-'<p>Appar:</p>', 
-"<br>",
-//'<p id="project">KortLeken (IOS) <img id="king" src="attachments/king.jpg" alt="Warning! width="40" height="40" "> </p>',
-'<a href="https://apps.apple.com/se/app/kortleken/id1644866773" target="_blank">KortLeken (IOS)</a>',
-, "<br>",];
+projects = [
+  "<br>",
+  "<p>Appar:</p>",
+  "<br>",
+  //'<p id="project">KortLeken (IOS) <img id="king" src="attachments/king.jpg" alt="Warning! width="40" height="40" "> </p>',
+  '<a href="https://apps.apple.com/se/app/kortleken/id1644866773" target="_blank">KortLeken (IOS)</a>',
+  ,
+  "<br>",
+];
 
 banner = [
   '<p id="startText">Adam Röhr (AR) Not A Corporation. Med ensamrätt.</p>',
@@ -140,8 +143,6 @@ commandnotfound = [
   '<span id="notFound"><br></span>',
   '<span id="notFound">Kommandot finns inte. Skriv: </span><span id="commandTextDesk">\'help\'</span><span id="notFound"> för att få en lista med alla kommandon.</span>',
 ];
-
-
 
 commandnotfoundmobile = [
   "<br>",

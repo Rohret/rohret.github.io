@@ -37,6 +37,10 @@ function enterKey(e) {
       case "help":
         writeLines(help, "mainText");
         break;
+      case "ls":
+        writeLines(help, "mainText");
+        break;
+      case "cd whoisadam":
       case "whoisadam":
         writeLines(whoisadam, "mainText");
         writeLines(whoisadammobile, "mainText");

@@ -65,7 +65,8 @@ whoisadammobile = [
   '<p id="mobileWhoIs">out and spending time with my girlfriend</p>',
   '<p id="mobileWhoIs">and friends.</p>',
   '<p id="mobileWhoIs">I believe that having a well-rounded life outside</p>',
-  '<p id="mobileWhoIs">of work is essential for overall happiness and success.</p>',
+  '<p id="mobileWhoIs">of work is essential for overall happiness and</p>',
+  '<p id="mobileWhoIs">success.</p>',
   '<p id="mobileWhoIs"><br></p>',
 ];
 
@@ -104,7 +105,8 @@ banner = [
 ];
 
 mobilebanner = [
-  '<p id="startText">Adam Röhr (AR) Not A Corporation. All Rights Reserved.</p>',
+  '<p id="startText">Adam Röhr (AR) Not A Corporation. All Rights</p>',
+  '<p id="Reserved.</p>',
   "<br>",
   '<p id="commandTextMobile">NOTE! The web terminal is only marginally</p>',
   '<p id="commandTextMobile">mobile-friendly,</p>',

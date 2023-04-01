@@ -6,22 +6,25 @@ var github = "https://github.com/Rohret";
 
 whoisadam = [
   '<p id="WhoIs"><br></p>',
-  '<p id="WhoIs">Hej, Jag heter Adam Röhr!👋</p>',
-  '<p id="WhoIs">Jag är 24 år gammal och är inne på mitt femte och sista år på Karlstads universitet som</p>',
-  '<p id="WhoIs">civilingenjör inom datateknik.</p>',
-  '<p id="WhoIs">Utöver plugget så hänger jag med kompisar, gymmar eller umgås med min sambo. </p>',
-  '<p id="WhoIs">Då jag slutade med innebandy förra året som jag har ägnat en stor del av mitt</p>',
-  '<p id="WhoIs">liv till, fick jag mycket extra tid som jag delvis kan lägga på att göra projekt likt denna webbsida.</p>',
-  '<p id="WhoIs">Back-end utveckling är det som varit mest i fokus under skolan och därav har jag mest</p>',
-  '<p id="WhoIs">kompetens inom det. Dock har jag på sidan av studierna lärt mig en del om front-end utveckling.</p>',
-  '<p id="WhoIs">Målet är att bli full-stack utvecklare och därav försöker jag lära mig alla delar.</p>',
-  '<p id="WhoIs">Det framgår ganska tydligt vart min kompetens ligger då jag har skapat en webbsida</p>',
-  '<p id="WhoIs">som liknar en terminal.😉</p>',
-  '<p id="WhoIs">De programmeringspråk jag är mest bekväm med är c och python. Med de sagt har jag</p>',
-  '<p id="WhoIs">också gjort projekt i java, c++, c#, swift, assembly och javascript (även HTML och CSS).</p>',
-  '<p id="WhoIs">Det bästa med den inriktning jag valt är problemlösandet.</p>',
-  '<p id="WhoIs">Jag tycker processen från att identifiera ett problem till att lösa det, är både kul och givande.</p>',
-  '<p id="WhoIs">Att bolla lösningar och problem med en grupp/team gör det ännu bättre!</p>',
+  '<p id="WhoIs">Hi, my name is Adam Röhr!👋</p>',
+  '<p id="WhoIs">My name is Adam, and I am 24 years old computer science student in my final year of a</p>',
+  '<p id="WhoIs">Master of Science program at Karlstad University.</p>',
+  '<p id="WhoIs">I have a broad and deep understanding of modern technology and its applications.  </p>',
+  '<p id="WhoIs">I have gained extensive experience in object-oriented programming languages like</p>',
+  '<p id="WhoIs">python, C++, C#, and java throughout my university education.</p>',
+  '<p id="WhoIs">Aside from my studies, I have also learned javascript (HTML, CSS) from my own projects.</p>',
+  '<p id="WhoIs">My education has focused on backend development; therefore,</p>',
+  '<p id="WhoIs">I am most comfortable with backend techniques and languages like python, java, c, c++, etc.</p>',
+  '<p id="WhoIs">Furthermore, I have gained knowledge in Docker, Kubernetes, and Go; because</p>',
+  '<p id="WhoIs">my master&quots thesis is mainly about Kubernetes.</p>',
+  '<p id="WhoIs">One of my favorite aspects of my education has been the chance to work</p>',
+  '<p id="WhoIs">in teams utilizing an agile methodology in project classes.</p>',
+  '<p id="WhoIs">I am a strong team player and truly enjoy collaborating to achieve common goals.</p>',
+  '<p id="WhoIs">In addition to my education, I have been proactive in pursuing personal projects that have helped</p>',
+  '<p id="WhoIs">I have created and released two applications to the app store,</p>',
+  '<p id="WhoIs">made this terminal portfolio website, and plenty more.</p>',
+  '<p id="WhoIs">In my spare time, I like to stay active by working out and spending time with my girlfriend and friends.</p>',
+  '<p id="WhoIs">I believe that having a well-rounded life outside of work is essential for overall happiness and success.</p>',
   '<p id="WhoIs"><br></p>',
 ];
 
@@ -63,7 +66,7 @@ whoisadammobile = [
 
 openmail = [
   "<br>",
-  '<p id="emailText">Öppnar e-post till adamroohr@gmail.com... </p>',
+  '<p id="emailText">Opening email to adamroohr@gmail.com...</p>',
   ,
   "<br>",
 ];
@@ -80,7 +83,7 @@ projects = [
 ];
 
 banner = [
-  '<p id="startText">Adam Röhr (AR) Not A Corporation. Med ensamrätt.</p>',
+  '<p id="startText">Adam Röhr (AR) Not A Corporation. All Rights Reserved.</p>',
   "<br>",
   "                        |                              ___      _                  ______      _          © 2022",
   "                    \\       /                         / _ \\    | |                 | ___ \\    | |         ",
@@ -91,15 +94,15 @@ banner = [
   "`~^~-~~^~^~-^~^_~^~~ -=====- ~^~^~-~^~_~^~^~~^~-~^~",
   "`~^~^~-~^~~^~-~^~~-~^~^~-~^~~^-~^~^~^-~^~^~^~^~~^~-~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ~^~^~-~^~_~^~^~~^~-~^~ ",
   "<br>",
-  '<span id="welcomeText">Välkommen till min interaktiva webbterminal!</span>',
-  '<span id="welcomeText">För att få en lista med kommandon, skriv:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
+  '<span id="welcomeText">Welcome to my interactive web terminal!</span>',
+  '<span id="welcomeText">For a list of available commands, type:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
 ];
 
 mobilebanner = [
-  '<p id="startText">Adam Röhr (AR) Not A Corporation. Med ensamrätt.</p>',
+  '<p id="startText">Adam Röhr (AR) Not A Corporation. All Rights Reserved.</p>',
   "<br>",
-  '<p id="commandTextMobile">OBS! Webbterminalen är mobilanpassad,</p>',
-  '<p id="commandTextMobile">använd en dator för bättre upplevelse!</p>',
+  '<p id="commandTextMobile">NOTE! The web terminal is only marginally mobile-friendly,</p>',
+  '<p id="commandTextMobile">use a PC for better experience!</p>',
   "<br>",
   "                        |                          ",
   "                    \\       /                     ",
@@ -110,8 +113,8 @@ mobilebanner = [
   "`~^~-~~^~^~-^~^_~^~~ -=====- ~^~^~-~^~_~^~^~~^~-~^~",
   "`~^~^~-~^~~^~-~^~~-~^~^~-~^~~^-~^~^~^-~^~^~^~^~~^~-~",
   "<br>",
-  '<span id="welcomeText">Välkommen till min interaktiva webbterminal!</span>',
-  '<span id="welcomeText">För att få en lista med kommandon, skriv:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
+  '<span id="welcomeText">Welcome to my interactive web terminal!</span>',
+  '<span id="welcomeText">For a list of available commands, type:</span> <span id="commandText">\'help\'</span><span class="color2">.</span>',
 ];
 
 onlyBanner = [
@@ -129,29 +132,29 @@ onlyBanner = [
 
 help = [
   "<br>",
-  '<span id="commandText">whoisadam</span>      Vem är Adam Röhr?',
-  '<span id="commandText">social</span>         Alla sociala medier ',
-  '<span id="commandText">projects</span>       Visa senaste projekten',
-  '<span id="commandText">email</span>          Kontakta mig gärna!',
-  '<span id="commandText">cv</span>             En länk till mitt CV',
-  '<span id="commandText">banner</span>         Visar headern',
-  '<span id="commandText">history</span>        Kommando historiken',
-  '<span id="commandText">clear</span>          Rensar terminalen',
+  '<span id="commandText">whoisadam</span>      Who is Adam Röhr?',
+  '<span id="commandText">social</span>         Display social networks',
+  '<span id="commandText">projects</span>       View the latest coding projects',
+  '<span id="commandText">email</span>          Feel free to contact me!',
+  '<span id="commandText">cv</span>             A link to my resume',
+  '<span id="commandText">banner</span>         Show the header',
+  '<span id="commandText">history</span>        Command history',
+  '<span id="commandText">clear</span>          Clean the terminal',
   "<br>",
 ];
 
 commandnotfound = [
   '<span id="notFound"><br></span>',
-  '<span id="notFound">Kommandot finns inte. Skriv: </span><span id="commandTextDesk">\'help\'</span><span id="notFound"> för att få en lista med alla kommandon.</span>',
+  '<span id="notFound">The command is not found. Type: </span><span id="commandTextDesk">\'help\'</span><span id="notFound"> to get a list of all available commands.</span>',
 ];
 
 commandnotfoundmobile = [
   "<br>",
-  '<span id="commandnotfoundmobile">Kommandot finns inte.</span>',
-  '<span id="commandnotfoundmobile">Skriv: <span id="commandTextMobile">\'help\'</span><span id="commandnotfoundmobile"> för att få en lista med kommandon.</span>',
+  '<span id="commandnotfoundmobile">The command is not found.</span>',
+  '<span id="commandnotfoundmobile">Type: <span id="commandTextMobile">\'help\'</span><span id="commandnotfoundmobile"> to get a list of all available commands.</span>',
 ];
 
-openpdf = ["<br>", '<p id="emailText">Öppnar CV... </p>', "<br>"];
+openpdf = ["<br>", '<p id="emailText">Opening CV...</p>', "<br>"];
 
 newline = ["<br>"];
 

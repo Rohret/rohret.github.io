@@ -65,6 +65,18 @@ function enterKey(e) {
       case "projects":
         writeLines(projects, "mainText");
         break;
+      case "linkedin":
+        OpenNewTab("https://www.linkedin.com/in/adam-r%C3%B6hr-90720ba1/");
+        break;
+      case "github":
+        OpenNewTab("https://github.com/Rohret");
+        break;
+      case "instagram":
+        OpenNewTab("https://www.instagram.com/adamrohr_/");
+        break;
+      case "facebook":
+        OpenNewTab("https://www.facebook.com/adam.rohr.94");
+        break;
       default:
         writeLines(commandnotfound, "mainText");
         writeLines(commandnotfoundmobile, "mainText");

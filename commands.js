@@ -147,7 +147,7 @@ help = [
   '<span id="commandText">cv</span>             A link to my resume',
   '<span id="commandText">banner</span>         Show the header',
   '<span id="commandText">history</span>        Command history',
-  '<span id="commandText">clear</span>          Clean the terminal',
+  '<span id="commandText">clear</span>          Clear the terminal',
   "<br>",
 ];
 

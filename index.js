@@ -45,17 +45,21 @@ function enterKey(e) {
         writeLines(whoisadam, "mainText");
         writeLines(whoisadammobile, "mainText");
         break;
+      case "cd email":
       case "email":
         writeLines(openmail, "mainText");
         OpenNewTab("mailto:adamroohr@gmail.com");
         break;
+      case "cd cv":
       case "cv":
         writeLines(openpdf, "mainText");
         OpenNewTab("attachments/CV_adamroohr.pdf");
         break;
+      case "cd banner":
       case "banner":
         writeLines(onlyBanner, "mainText");
         break;
+      case "cd history":
       case "history":
         writeLines(newline, "mainText");
         writeLines(history, "mainText");
@@ -63,21 +67,27 @@ function enterKey(e) {
       case "clear":
         document.getElementById("mainText").innerHTML = "";
         break;
+      case "cd social":
       case "social":
         writeLines(social, "mainText");
         break;
+      case "cd projects":
       case "projects":
         writeLines(projects, "mainText");
         break;
+      case "cd linkedin":
       case "linkedin":
         OpenNewTab("https://www.linkedin.com/in/adam-r%C3%B6hr-90720ba1/");
         break;
+      case "cd github":
       case "github":
         OpenNewTab("https://github.com/Rohret");
         break;
+      case "cd instagram":
       case "instagram":
         OpenNewTab("https://www.instagram.com/adamrohr_/");
         break;
+      case "cd facebook":
       case "facebook":
         OpenNewTab("https://www.facebook.com/adam.rohr.94");
         break;

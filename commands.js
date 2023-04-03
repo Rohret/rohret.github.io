@@ -110,7 +110,7 @@ mobilebanner = [
   "<br>",
   '<p id="commandTextMobile">NOTE! The web terminal is only marginally</p>',
   '<p id="commandTextMobile">mobile-friendly,</p>',
-  '<p id="commandTextMobile">use a PC for better experience!</p>',
+  '<p id="commandTextMobile">Use a PC for a better experience!</p>',
   "<br>",
   "                        |                          ",
   "                    \\       /                     ",

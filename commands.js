@@ -153,7 +153,7 @@ help = [
 
 commandnotfound = [
   '<span id="notFound"><br></span>',
-  '<span id="notFound">The command is noot found. Type: </span><span id="commandTextDesk">\'help\'</span><span id="notFound"> to get a list of all available commands.</span>',
+  '<span id="notFound">The command is not found. Type: </span><span id="commandTextDesk">\'help\'</span><span id="notFound"> to get a list of all available commands.</span>',
 ];
 
 commandnotfoundmobile = [
